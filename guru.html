@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <head id="ctl00_Head1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="guru.css">
+        <link rel="stylesheet" href="guru1.css">
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Nunito:wght@200;300;400;500&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&family=Source+Sans+Pro:ital,wght@1,200&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5195657d56.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <header class="mainnav">
+        <div class="navigation">
+
+            <div class="meanu"><div class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+                <div class="logo">
+                    <img id="img" src="img/guru.png" alt="">
+                </div>
+                <div class="menu-tab">
+                 <a id="freelancers" href="https://www.guru.com/d/freelancers/">Find
+                    Freelancers</a>
+                    <a id="jobs" href="https://www.guru.com/d/jobs/">Find Jobs</a>
+                    <div class="dropdown">
+                        <span class="trigger">
+                            <button class="dropbtn">About</button>
+
+                            <svg height="8" width="8" style="margin-top:-4px;" viewBox="0 0 32 32" class="icon">
+                                <path d="M28.8 6.2L16 19 3.2 6.2 0 9.4l16 16.4L32 9.4z"></path>
+                            </svg>
+                        </span>
+                        <div class="dropdown-content">
+                            <a href="https://www.guru.com/about/">About Guru</a>
+                            <a href="https://www.guru.com/how-it-work/">How Guru Work</a>
+                            <a href="https://www.guru.com/wht-guru/">why Guru</a>
+                            <a href="https://www.guru.com/pricing-employer/">Pricing</a>
+                            <a href="https://www.guru.com/blog/">Blog</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <span class="trigger">
+                            <button class="dropbtn">Solutions</button>
+                            <svg height="8" width="8" style="margin-top:-4px;" viewBox="0 0 32 32" class="icon">
+                                <path d="M28.8 6.2L16 19 3.2 6.2 0 9.4l16 16.4L32 9.4z"></path>
+                            </svg>
+                        </span>
+                        <div class="dropdown-content">
+                            <a href="https://www.guru.com/enterprise/">Enterprise Solutions</a>
+                            <a href="https://www.guru.com/d/agency/">Agency Solutions</a>
+                            <a href="https://www.guru.com/purchase-orders/">Purchase Order Solutions</a>
+                            <a href="https://www.guru.com/agreements/">Work Agremment</a>
+                            <a href="https://www.guru.com/safepay/">SafePay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="meanu2">
+                <li>
+                    <a id="post" href="https://www.guru.com/post-job/">post a job</a>
+                </li>
+                <li class="sing-up">
+                    <a id="sing-icon" href="https://www.guru.com/registeraccount.aspx">
+                        <svg role="img" class="icon" viewBox="0 0 15 15" height="16" width="16">
+                            <path
+                                d="M13.6 9.6c-.2 0-.3.2-.3.4v3.2c0 .6-.5 1-1.1 1H1.8a1 1 0 0 1-1-1V3.8c0-.6.4-1 1-1h3.3c.2 0 .4-.2.4-.4S5.3 2 5 2H1.8C.8 2 0 2.8 0 3.8v9.4c0 1 .8 1.8 1.8 1.8h10.4c1 0 1.8-.8 1.8-1.8V10c0-.2-.2-.4-.4-.4z">
+                            </path>
+                            <path
+                                d="M14 .5c-.6-.7-1.7-.7-2.3 0L5 7.2l-.1.1-.9 3.2a.4.4 0 0 0 .5.5l3.2-.9h.1l6.7-6.8c.7-.6.7-1.7 0-2.4l-.4-.4zm-8.2 7L11.3 2 13 3.7 7.6 9.2 5.8 7.4zm-.3.6l1.4 1.4-2 .6.6-2zM14 2.8l-.4.4-1.8-1.8.4-.4a1 1 0 0 1 1.3 0l.5.5c.3.3.3 1 0 1.3z">
+                            </path>
+                        </svg>
+                        <span class="">Sign Up</span>
+                    </a>
+                </li>
+                <li class="login">
+                    <a id="login-icon" href="https://www.guru.com/login.aspx">
+                        <svg role="img" class="icon" viewBox="0 0 17 15" height="15" width="15">
+                            <path fill="currentColor"
+                                d="M15.1 0H9C7.9 0 7 .8 7 1.8v1.6c0 .2.2.4.5.4.2 0 .4-.2.4-.4V1.8c0-.5.5-.9 1-1H15c.6 0 1 .5 1 1v11.4c0 .3-.1.5-.3.7a1 1 0 0 1-.7.2H9a1 1 0 0 1-1-.9v-1.5c0-.3-.2-.5-.4-.5-.3 0-.5.2-.5.5v1.5c0 1 .8 1.8 1.9 1.8h6c1 0 1.9-.8 1.9-1.8V1.8c0-1-.8-1.8-1.9-1.8z">
+                            </path>
+                            <path fill="currentColor"
+                                d="M11.4 6.8H.4c-.2 0-.4.2-.4.5 0 .2.2.4.5.4h11l-2.4 2.6v.6c.3.2.6.1.7 0l3-3.3.2-.3-.1-.3-3-2.9-.4-.1-.3.1-.2.3c0 .1 0 .2.2.3l2.2 2.1z">
+                            </path>
+                        </svg>
+                        <span>Log In</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </header>
+    <section class="section-a">
+
+        <div class=" course custom-scroller">
+            <a href="https://www.guru.com/m/hire/freelancers/programming-development/">Programming &
+                Development</a>
+            <a href="https://www.guru.com/m/hire/freelancers/design-art/">Design & Art</a>
+            <a href="https://www.guru.com/m/hire/freelancers/writing-translation/">Writting &
+                Translation</a>
+            <a href="https://www.guru.com/m/hire/freelancers/administrative-secretarial/">Administrative
+                &
+                Secretarial</a>
+            <a href="https://www.guru.com/m/hire/freelancers/sales-marketing/">Sles & Markiting</a>
+            <a href="https://www.guru.com/m/hire/freelancers/engineering-architecture/">Engineering
+                &
+                Architectuer</a>
+            <a href="https://www.guru.com/m/hire/freelancers/business-finance/">Business &
+                Finance</a>
+            <a href="https://www.guru.com/m/hire/freelancers/education-training/">Education &
+                Training</a>
+            <a href="https://www.guru.com/m/hire/freelancers/legal/">Legal</a>
+        </div>
+
+    </section>
+    <section class="headings">
+
+        <div class="search-main">
+            <div class="find">
+                <h1 class="title">Find & hire<br>
+                    Expert Freelancers </h1>
+                <h3 class="subtitle">Work with the best freelance talent from around the worle on
+                    our
+                    secure,<br>flexibale and
+                    cost-effective
+                    platfrom.</h3>
+                <div id="line"></div>
+                </div>
+            <div class="looking">
+                <form class="looking-search">
+
+                    <div class="looking-skill">
+                        <input class="searchquary" src="text" placeholder="What skill are you lokking for?">
+                        <button class="searchicon" type="submit">
+                            <svg viewBox="0 0 20 16" height="48" width="18" role="img" class="icon"
+                                aria-labelledby="searchGuru">
+                                <title id="searchGuru">Search Freelancers</title>
+                                <path
+                                    d="M19.76 18.58l-4.81-4.8a8.43 8.43 0 10-1.18 1.18l4.8 4.8a.83.83 0 001.19-1.18zM8.5 15a6.5 6.5 0 11.01-13.01A6.5 6.5 0 018.5 15z">
+                                </path>
+
+                            </svg>
+
+                        </button>
+                    </div>
+                </form>
+                <span class="or">or</span>
+                <div class="free-job">
+                    <a href=""> Post a Job-It's Free</a>
+                </div>
+                <div class="token">
+                    <div class="token-main">
+                        <a class="token-list" href="">Data Entry</a>
+                        <a class="token-list" href="">Graphic Design</a>
+                        <a class="token-list" href="">logo Design</a>
+                        <a class="token-list" href="">wordpress</a>
+                        <a class="token-list" href="">Design</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <figure class="search-figure"></figure>
+
+
+    </section>
+    <section class="employe">
+        <div class="employe-banner">
+            <ul class="employe-icon">
+                <li class="detiles">
+
+                    <figure id="detiles-figure"><svg class="u-svg-ico u-copyBlue" role="presentation"
+                            viewBox="0 0 45 45" height="40" width="40" aria-hidden="true">
+                            <path
+                                d="M34.46 33.85c-.3 0-.55.24-.55.54v5.07a.3.3 0 01-.3.3H30.7V29.13c0-.3-.24-.53-.54-.53-.3 0-.54.24-.54.53v10.63h-5.89l1.71-1.86a.96.96 0 00.23-.8l-1.62-9.53.44-.65c.24.17.42.34.77.34.36 0 .7-.2.86-.53l1.7-3.4 3.91 1.5c.14.05 2.2.97 2.2 3.4v6.9c0 .3.24.53.54.53.3 0 .54-.24.54-.54v-6.9a4.82 4.82 0 00-2.88-4.4l-6.5-2.5v-1.51a5.05 5.05 0 001.93-3.33c.52-.04 1-.23 1.38-.56a2.28 2.28 0 00.24-3.23v-2A6.72 6.72 0 0022.44 4c-3.71 0-6.73 3-6.73 6.69v2.05c-.37.4-.56.91-.56 1.44 0 .67.29 1.3.8 1.74.39.33.87.52 1.38.56a5 5 0 002.04 3.4v1.44l-6.5 2.5a4.82 4.82 0 00-2.87 4.4v11.24c0 .76.62 1.38 1.39 1.38h8.44c.3 0 .55-.24.55-.54 0-.3-.25-.54-.55-.54H15.4V29.13c0-.3-.24-.53-.54-.53-.3 0-.54.24-.54.53v10.63H11.4a.3.3 0 01-.3-.3V28.22a3.74 3.74 0 012.19-3.4l3.9-1.5 1.71 3.41c.16.33.5.53.85.53s.53-.17.78-.34l.44.65-1.63 9.54v.01c-.04.29.05.58.24.78l1.7 1.86H19.1c-.3 0-.54.24-.54.54 0 .3.24.54.54.54h14.5c.77 0 1.39-.62 1.39-1.38V34.4c0-.3-.24-.54-.54-.54zM26.8 22.93l-1.6 3.18-1.92-1.36 1.98-2.41 1.54.59zm-3.21 3.36l-.41.62h-1.36l-.41-.62 1.09-.77 1.09.77zm-3.14-4.8v-1c.66.26 1.37.38 2.06.38.71 0 1.4-.15 2.03-.42v1.05L22.5 24l-2.05-2.5zm8.2-7.3a1.22 1.22 0 01-1.05 1.2v-2.41c.62.1 1.05.62 1.05 1.2zm-11.37 1.2a1.22 1.22 0 01-1.05-1.2c0-.58.49-1.05 1.05-1.18v2.38zm.03-3.48a2.7 2.7 0 00-.52.11V10.7c0-3.1 2.54-5.61 5.65-5.61a5.63 5.63 0 015.65 5.6v1.3a2.43 2.43 0 00-.5-.09c0-.52.01-.42-1.7-2.25a.97.97 0 00-1.24-.15 10.53 10.53 0 01-6.33 1.7.97.97 0 00-1 .72zm1.06 3.9v-3.54c2.35.14 4.8-.56 6.8-1.82.78.84 1.2 1.28 1.34 1.45v3.91a4 4 0 01-4 3.98 4.02 4.02 0 01-4.14-3.98zm1.42 10.3l-1.6-3.18 1.55-.6 1.97 2.43-1.92 1.35zm.63 11.11L21.99 28H23l1.57 9.23-2.08 2.28-2.08-2.28z">
+                            </path>
+                        </svg></figure>
+                    <div id="datiles-text">
+                        <p id="datiles-digite">800,000<br>Employers Worldwide</p>
+                    </div>
+
+                </li>
+                <li class="detiles">
+
+
+                    <figure id="detiles-figure"><svg class="u-svg-ico u-copyBlue" viewBox="0 0 45 45"
+                            role="presentation" height="40" width="40" aria-hidden="true">
+                            <path
+                                d="M33.26 5A8.64 8.64 0 0142 13.5c0 4.7-3.92 8.52-8.74 8.52h-.24l-.24-.01v13.47a4.76 4.76 0 01-4.61 4.7h-.44l-.1-.01v.02H8.62v-.02A4.77 4.77 0 014 35.7v-2.87c0-.3.24-.52.53-.56H9l.14-21.01c0-.3.23-.57.53-.62h15.37A8.82 8.82 0 0133.26 5zM23.09 33.45H5.23v2.03a3.57 3.57 0 003.42 3.5h16.07c-.06-.07-.14-.12-.2-.18a4.64 4.64 0 01-1.43-3.08v-2.27zm1.6-21.63H10.36l-.14 20.43h13.5c.17 0 .32.05.43.16.09.09.15.2.16.32v2.74a3.58 3.58 0 003.43 3.51h.21a3.56 3.56 0 003.6-3.3V21.85a8.7 8.7 0 01-5.45-3.5l-.17-.25h-6.48a.6.6 0 01-.62-.6c0-.3.22-.55.52-.6h5.91a8.25 8.25 0 01-.57-5.1zm-10.13 15.7a2.11 2.11 0 110 4.23 2.11 2.11 0 010-4.23zm0 1.36c-.44 0-.8.34-.8.75s.36.75.8.75c.43 0 .79-.34.79-.75a.77.77 0 00-.8-.75zm12.72.05c.36 0 .65.31.65.7 0 .39-.3.7-.65.7h-8.56c-.36 0-.65-.31-.65-.7 0-.39.3-.7.65-.7zm-12.72-7.04a2.11 2.11 0 110 4.23 2.11 2.11 0 010-4.23zm0 1.36c-.44 0-.8.34-.8.75s.36.75.8.75c.43 0 .79-.34.79-.75a.77.77 0 00-.8-.75zm12.72.05c.36 0 .65.31.65.7 0 .35-.24.65-.55.7h-8.66c-.36 0-.65-.31-.65-.7 0-.35.24-.65.55-.7h8.66zm5.98-17.1a7.4 7.4 0 00-7.51 7.3 7.4 7.4 0 007.51 7.31 7.4 7.4 0 007.5-7.3 7.4 7.4 0 00-7.5-7.3zm-18.7 10.05a2.11 2.11 0 11-.01 4.23 2.11 2.11 0 010-4.23zm0 1.36c-.44 0-.8.34-.8.75s.36.75.8.75c.43 0 .79-.34.79-.75a.77.77 0 00-.8-.75zm18.93-9.8c.34 0 .61.22.66.5V9c1.3.26 2.22 1.3 2.22 2.49 0 .33-.3.6-.66.6-.37 0-.67-.27-.67-.6 0-.73-.65-1.33-1.45-1.34h-.15c-.8.06-1.4.67-1.37 1.39.03.72.69 1.29 1.49 1.29 1.43 0 2.64.98 2.8 2.27.14 1.23-.72 2.38-2.03 2.71l-.17.04v.63c0 .34-.3.6-.67.6-.33 0-.6-.22-.65-.5l-.01-.1v-.65c-1.23-.3-2.09-1.31-2.09-2.46 0-.33.3-.6.67-.6.36 0 .66.27.66.6 0 .74.67 1.34 1.49 1.34s1.48-.6 1.48-1.34c0-.74-.66-1.34-1.48-1.34-1.42 0-2.61-.95-2.8-2.21-.17-1.22.63-2.36 1.9-2.74l.17-.05v-.6c0-.34.3-.6.66-.6z">
+                            </path>
+                        </svg></figure>
+                    <div id="datiles-text">
+                        <p id="datiles-digite">1 Million<br>Paid Invoice</p>
+                    </div>
+
+                </li>
+                <li class="detiles">
+
+
+                    <figure id="detiles-figure"><svg class="u-svg-ico u-copyBlue" viewBox="0 0 45 45"
+                            role="presentation" height="40" width="40" aria-hidden="true">
+                            <path
+                                d="M35.64 13.74c3.46 0 7.17.83 7.34 2.63v16.74c0 1.9-3.8 2.76-7.34 2.76-3.46 0-7.17-.83-7.34-2.63V16.5c0-1.9 3.8-2.76 7.34-2.76zm6.01 18.27c-1.42.74-3.77 1.1-6.01 1.1-2.11 0-4.31-.31-5.75-.97l-.26-.12v1.08c.1.38 2.1 1.38 6.01 1.38 3.79 0 5.79-.94 6-1.35l.01-.04v-1.08zm0-2.76c-1.42.74-3.77 1.09-6.01 1.09-2.11 0-4.31-.31-5.75-.96l-.26-.13v1.09c.1.37 2.1 1.38 6.01 1.38 3.79 0 5.79-.95 6-1.36l.01-.03v-1.08zm0-2.77c-1.42.74-3.77 1.09-6.01 1.09-2.11 0-4.31-.3-5.75-.96l-.26-.13v1.09c.1.37 2.1 1.38 6.01 1.38 3.79 0 5.79-.95 6-1.35l.01-.04v-1.08zM36.98 9h.09a.6.6 0 01.47.5v2.17c0 .33-.25.59-.56.59h-.1a.58.58 0 01-.47-.5V10.2H4.14v15.4h22.14c.31 0 .57.27.57.6 0 .3-.2.54-.48.58l-.1.01H3.49a.58.58 0 01-.47-.5l-.01-.1V9.5a.58.58 0 01.48-.48l.1-.01h33.4zm4.67 14.72c-1.42.74-3.77 1.08-6.01 1.08-2.11 0-4.31-.3-5.75-.96l-.26-.12v1.08c.1.38 2.1 1.39 6.01 1.39 3.79 0 5.79-.95 6-1.36l.01-.04v-1.07zM9.23 11.77h5.03c.32 0 .57.26.57.59 0 .3-.2.54-.48.58l-.09.01h-4.8l-2.64 2.67v4.5l2.4 2.7h5.04c.32 0 .57.27.57.6 0 .3-.2.54-.48.59H8.96a.56.56 0 01-.35-.12l-.07-.07-2.72-3.07a.6.6 0 01-.14-.31v-5c0-.15.03-.29.1-.4l.06-.1 2.99-3a.5.5 0 01.31-.17h5.12zm10.38.04a5.98 5.98 0 015.88 6.08 5.98 5.98 0 01-5.88 6.08 6 6 0 01-5.88-6.08 5.98 5.98 0 015.88-6.08zm22.04 9.14c-1.42.74-3.77 1.09-6.01 1.09-2.11 0-4.31-.31-5.75-.96l-.26-.13v1.09c.1.37 2.1 1.38 6.01 1.38 3.79 0 5.79-.95 6-1.36l.01-.03v-1.08zm-22.04-8.04a4.9 4.9 0 00-4.81 4.98 4.9 4.9 0 004.8 4.98 4.9 4.9 0 004.82-4.98 4.9 4.9 0 00-4.81-4.98zm0 1.87c.37 0 .66.3.66.69h.67c.37 0 .67.31.67.7 0 .37-.3.68-.67.68h-1.67c-.2 0-.33.12-.33.18 0 .05.12.17.33.17h.82c.8.03 1.48.7 1.52 1.56a1.6 1.6 0 01-1.34 1.52v.03c0 .38-.3.7-.66.7a.68.68 0 01-.67-.7h-.67a.68.68 0 01-.67-.7c0-.37.3-.68.67-.68h1.67c.2 0 .33-.12.33-.18 0-.05-.12-.17-.33-.17h-.67a1.62 1.62 0 01-1.67-1.56 1.6 1.6 0 011.34-1.52v-.03c0-.38.3-.7.67-.7zm22.04 3.4c-1.42.74-3.77 1.1-6.01 1.1-2.11 0-4.31-.32-5.75-.97l-.26-.12v1.08c.1.38 2.1 1.39 6.01 1.39 3.79 0 5.79-.95 6-1.36l.01-.04V18.2zm-6.01-3.06c-3.78 0-5.78.95-6 1.36l-.01.04c.1.36 2.1 1.37 6.01 1.37 3.88 0 5.88-1 6.01-1.38-.13-.4-2.13-1.39-6.01-1.39zm-5.39-3.35c.32 0 .58.26.58.59 0 .3-.21.54-.48.58l-.1.01h-5.3a.58.58 0 01-.57-.6c0-.29.2-.53.48-.58h5.4z">
+                            </path>
+                        </svg></figure>
+                    <div id="datiles-text">
+                        <p id="datiles-digite">$250 Million<br>Paid to freelancers</p>
+                    </div>
+
+                </li>
+                <li class="detiles">
+                    <figure id="detiles-figure" style="z-index:5; position:relative;"><svg class="u-svg-ico u-copyBlue"
+                            viewBox="0 0 45 45" role="presentation" height="40" width="40" aria-hidden="true">
+                            <path
+                                d="M29.918 16.137c0-.552.241-1.192.497-1.869.387-1.022.786-2.079.448-3.119-.351-1.083-1.362-1.742-2.254-2.323-.586-.382-1.14-.742-1.441-1.157-.308-.423-.483-1.067-.669-1.75-.277-1.02-.591-2.176-1.5-2.838-.9-.654-2.04-.6-3.141-.549-.712.034-1.385.066-1.893-.1-.473-.153-.978-.562-1.514-.994C17.617.764 16.672 0 15.513 0c-1.16 0-2.105.764-2.94 1.438-.535.433-1.04.841-1.513.995-.508.165-1.18.133-1.893.1-1.102-.052-2.241-.106-3.141.549-.909.66-1.223 1.817-1.5 2.838-.186.682-.36 1.326-.669 1.75-.301.414-.855.774-1.44 1.156-.893.581-1.904 1.24-2.255 2.323-.338 1.04.061 2.097.448 3.12.255.676.497 1.316.497 1.868S.865 17.329.61 18.006c-.387 1.022-.786 2.079-.449 3.119.352 1.083 1.363 1.742 2.255 2.323.586.382 1.14.742 1.441 1.157.308.423.483 1.067.669 1.75.277 1.02.591 2.176 1.5 2.837.9.655 2.04.601 3.141.55.712-.034 1.384-.066 1.893.1.473.153.978.561 1.514.994.403.326.832.672 1.299.943l-2.766 9.92-2.552-2.845a.722.722 0 00-.747-.208L4.154 39.76 6.96 29.23a.721.721 0 00-1.39-.387L2.412 40.639a.721.721 0 00.905.884L7.79 40.16l3.123 3.48a.721.721 0 001.232-.287l3.092-11.095c.091.009.183.016.276.016.094 0 .185-.007.276-.016l3.094 11.095a.721.721 0 001.232.288l3.122-3.481 4.473 1.363a.721.721 0 00.905-.884L25.34 28.893c.653-.677.92-1.658 1.16-2.539.185-.682.36-1.327.668-1.75.302-.414.855-.775 1.441-1.156.892-.581 1.903-1.24 2.255-2.324.338-1.04-.062-2.097-.448-3.119-.256-.677-.497-1.316-.497-1.868zM26.87 39.76l-3.655-1.114a.721.721 0 00-.747.208l-2.55 2.844-2.767-9.919c.467-.271.896-.617 1.299-.943.535-.433 1.041-.842 1.514-.995.509-.165 1.18-.134 1.893-.1.74.035 1.499.07 2.19-.11L26.87 39.76zm2.62-19.08c-.194.598-.911 1.065-1.67 1.56-.67.436-1.362.887-1.82 1.516-.464.637-.683 1.442-.894 2.22-.236.868-.458 1.687-.957 2.05-.49.356-1.332.316-2.224.274-.81-.038-1.648-.077-2.406.169-.727.236-1.362.749-1.976 1.245-.71.575-1.382 1.117-2.032 1.117-.65 0-1.32-.542-2.031-1.117-.614-.496-1.25-1.01-1.976-1.245-.478-.155-.988-.197-1.503-.197-.3 0-.604.014-.903.028-.892.042-1.735.082-2.224-.274-.499-.363-.721-1.182-.957-2.05-.211-.778-.43-1.583-.894-2.22-.458-.63-1.15-1.08-1.82-1.517-.76-.494-1.476-.961-1.67-1.56-.182-.558.113-1.338.425-2.164.29-.768.59-1.562.59-2.378 0-.816-.3-1.61-.59-2.378-.312-.826-.607-1.606-.425-2.164.194-.599.911-1.066 1.67-1.56.67-.436 1.362-.887 1.82-1.516.464-.638.683-1.443.894-2.22.236-.868.458-1.688.957-2.05.49-.357 1.332-.317 2.224-.275.81.038 1.648.078 2.406-.169.727-.236 1.362-.749 1.976-1.245.71-.575 1.382-1.117 2.032-1.117.65 0 1.32.542 2.031 1.117.614.496 1.249 1.01 1.976 1.245.759.246 1.596.207 2.406.169.892-.042 1.735-.082 2.224.274.498.363.721 1.182.957 2.05.211.778.43 1.583.894 2.22.458.63 1.15 1.08 1.82 1.517.759.494 1.476.961 1.67 1.56.182.558-.113 1.338-.425 2.163-.29.769-.59 1.563-.59 2.379 0 .816.3 1.61.59 2.378.312.826.607 1.606.425 2.164zm-17.591-6.71a.36.36 0 01.357.36v6.479c0 .199-.16.36-.357.36H10.47a.359.359 0 01-.357-.36v-6.48c0-.198.16-.36.357-.36zm4.393-3.316c.263-.066.59-.003.823.122.718.384.886 1.465.627 2.174l-.375 1.025s2.684-.01 2.742 0c.949.16 1.22 1.451.408 1.972a1.082 1.082 0 01-.356 1.428 1.082 1.082 0 01-.356 1.427c.395.7-.13 1.596-.93 1.596H12.94v-5.71s1.717-1.558 2.27-2.099c.317-.31.522-.722.604-1.156.032-.172.023-.352.114-.506a.594.594 0 01.363-.273z">
+                            </path>
+                        </svg></figure>
+                    <div id="datiles-text" style="z-index:5; position:relative; ">
+                        <p id="datiles-digite">99%<br>Customer Satisfaction Rate</p>
+                    </div>
+                    <span class="border">
+                    </span>
+
+
+
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="search-freelancers">
+        <div class="search-headline">
+            <h1 class="search-title">Find Top Freelancers </h1>
+            <ul class="search-freelancers-container">
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Programming $ Development</h2>
+                            <p>301.490 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Design & Art</h2>
+                            <p> 190,276 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Writing & Translation</h2>
+                            <p>187,210 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-solid fa-display-code"></i>
+                            </figure>
+                            <h2>Administrative & Secretarial</h2>
+                            <p>94,490 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Sales & Marketing</h2>
+                            <p> 68,526 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Engineering & Architecture</h2>
+                            <p> 50,932 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Business & Finance</h2>
+                            <p>48,825 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Education & Training</h2>
+                            <p>6,534 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="search-freelancers-container-item">
+                    <a class="search-card" href="">
+                        <div class="feature">
+                            <figure class="feature-figure">
+                                <i class="fa-light fa-display-code"></i>
+                            </figure>
+                            <h2>Legal</h2>
+                            <p>5,129 Freelancers</p>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+            <p class="see-skills">
+                <a href="">See All Skills</a>
+            </p>
+        </div>
+    </section>
+    <section class="section-d">
+        <h2 class="us">Why Over 3 Million People Choose Us</h2>
+        <div class="choose-main">
+            <div class="choose-guru">
+                <div class="guru-value">
+                    <div class="why-value-box">
+                        <h1>Credibility</h1>
+                        <p>We verify Freelancers, publish their feedback scores and All-Time Transaction Data to help
+                            you identify time-tested professionals across the globe.</p>
+                    </div>
+                    <figure class="guru-figure">
+                        <svg role="img" class="u-svg-ico" viewBox="0 0 45 45" aria-label="Credibility">
+                            <path
+                                d="M22.5 15.85a1.35 1.35 0 011.4.3l6.6 6.45v-.94c0-2.4 2.01-4.36 4.48-4.36a4.43 4.43 0 014.48 4.36v1.2c0 1-.35 1.92-.93 2.66h.71a5.7 5.7 0 015.76 5.6v11.35c0 .47-.4.86-.88.86h-3.71a.9.9 0 01-.25-.04.9.9 0 01-.26.04h-9.84a.87.87 0 01-.88-.86V32.12l-5.6-8.1a11.4 11.4 0 01-1.08-1.96c-.29.68-.65 1.33-1.08 1.95l-5.6 8.1v10.36c0 .47-.4.86-.88.86H5.1a.9.9 0 01-.26-.04.9.9 0 01-.25.04H.88a.87.87 0 01-.88-.86V31.12a5.7 5.7 0 015.76-5.6h.7a4.27 4.27 0 01-.92-2.65v-1.21c0-2.4 2.01-4.36 4.48-4.36a4.43 4.43 0 014.48 4.36v.94l6.6-6.45c.38-.35.92-.47 1.4-.3zm.88 2.23c.06 1.78.63 3.5 1.66 4.98l5.75 8.32c.1.14.15.3.15.48v9.75h8.08v-6.33c0-.48.4-.86.88-.86.49 0 .88.38.88.86v6.33h2.46V31.12c0-2.14-1.8-3.9-4-3.9h-6.1a.89.89 0 01-.63-.24zm-1.76 0l-9.13 8.9-.09.07a.89.89 0 01-.53.18H5.76c-2.2 0-4 1.75-4 3.9V41.6h2.46v-9.75c0-.48.4-.86.88-.86s.88.38.88.86v9.75h8.08v-8.52c.01-.32.06-1.57.15-1.7l5.75-8.32a9.26 9.26 0 001.66-4.98zm-11.6.93a2.69 2.69 0 00-2.72 2.65v1.2a2.69 2.69 0 002.72 2.66 2.7 2.7 0 002.72-2.65v-1.21A2.69 2.69 0 0010.02 19zm24.96 0a2.69 2.69 0 00-2.72 2.65v1.2a2.69 2.69 0 002.72 2.66 2.7 2.7 0 002.72-2.65v-1.21A2.69 2.69 0 0034.98 19zm-4-11.26a.8.8 0 01.09 1.05l-.08.09-2.06 2.06a.8.8 0 01-1.14 0 .8.8 0 01-.08-1.06l.08-.09 2.05-2.05a.8.8 0 011.15 0zm-14.96-.12l.1.06 2 1.5c.33.25.33.65 0 .9a1.04 1.04 0 01-1.08.06l-.1-.07-2-1.5c-.33-.24-.33-.64 0-.89.3-.22.75-.24 1.08-.06zM22.96 2c.47 0 .86.36.91.82v5.6c0 .51-.4.93-.91.93a.92.92 0 01-.91-.82v-5.6c0-.52.4-.93.9-.93z">
+                            </path>
+                        </svg>
+                    </figure>
+                </div>
+                <div class="guru-value">
+                    <figure class="guru-figure-2">
+                        <svg role="img" class="u-svg-ico" viewBox="0 0 45 45" aria-label="Flexibility">
+                            <path
+                                d="M42.3 3.7c2.3 2.3 2.3 6 0 8.3a.7.7 0 01-1 0l-3-3-1.2 1.3c3.4 3.5 5.5 5.4 5.5 13.5 0 8-4.6 13.7-9.4 16.6l-.3.2 2.2 2.2a.7.7 0 01-.5 1.2l-.4-.1-.1-.1-2.5-2.5a19.5 19.5 0 01-16.7.2l-.5-.2-2.5 2.5a.7.7 0 01-1-1l2.2-2.2a19.5 19.5 0 01-4.5-30l.3-.3L7.7 9l-3 3a.7.7 0 01-1 0A5.9 5.9 0 1112 3.6a.7.7 0 01.1 1L8.6 8 10 9.3A19.5 19.5 0 0135.7 9l.3.3L37.3 8 34 4.7a.7.7 0 010-1c2.3-2.3 6-2.3 8.3 0zM23 6.4C13.2 6.4 5.4 14 5.4 23.8a17 17 0 0017.6 17 17 17 0 0017.7-17c0-9.9-7.9-17.4-17.7-17.4zm12.8-2.6l-.2.1 6.5 6.5a4.7 4.7 0 00-6.3-6.6zm-31.4.6a4.7 4.7 0 00-.6 5.8l.1.2 6.5-6.5a4.7 4.7 0 00-6 .5zm19.7 18.2h-2.3c-1.3 0-2.3-1-2.3-2.4 0-1.3 1-2.3 2.3-2.3h4.5c.6 0 1.1-.5 1.1-1.1 0-.6-.5-1.1-1-1.1H24v-2.4c0-.6-.5-1-1-1a1 1 0 00-1.1 1v2.4c-2.5 0-4.5 2-4.5 4.5s2 4.6 4.4 4.6h2.3c1.3 0 2.3 1 2.3 2.4 0 1.3-1 2.3-2.3 2.3h-4.5a1 1 0 00-1.1 1.1c0 .6.5 1.1 1 1.1H22v2.4c0 .6.5 1 1 1 .6 0 1.1-.4 1.1-1v-2.4c2.5 0 4.5-2 4.5-4.5s-2-4.6-4.4-4.6z">
+                            </path>
+                        </svg>
+                    </figure>
+                    <div class="why-value-box-2">
+                        <h3>Flexibility</h3>
+                        <p>We provide multiple Payment terms and flexible Agreements to enable you to work the way you
+                            want.</p>
+                    </div>
+                </div>
+                <div class="guru-value">
+
+                    <div class="why-value-box">
+                        <h1>Security</h1>
+                        <p>We offer SafePay payment protection and your choice of preferred payment method for financial
+                            peace of mind.</p>
+                    </div>
+                    <figure class="guru-figure">
+                        <svg role="img" class="u-svg-ico" viewBox="0 0 45 45" aria-label="Security">
+                            <path
+                                d="M37 5c1.5 0 2.6 1.1 2.7 2.5V21h1.8c.5 0 .8.4.9.8 0 1 .8 1.8 1.7 1.8.5 0 .8.3.9.7v6.1c0 1.7-.4 3.4-1.1 4.9-2 4-5 4.8-6.2 5.2l-.6.1c-1 0-5.9-2-7.4-6.9l-.1-.3h-27A2.7 2.7 0 010 31V7.7C0 6.3 1 5 2.5 5H37zm3.7 17.8h-7.2a3.6 3.6 0 01-2.4 2.5H31v5.2c0 2.8 1.2 5.1 3.5 6.9a10 10 0 002.6 1.4h.2a8 8 0 005-4.4c.7-1 1-2.3 1-3.6v-5.6a3.5 3.5 0 01-2.5-2.4zm-.7 5c.4.3.4.8.1 1.2v.1l-3.8 3.8a1 1 0 01-1.2 0H35l-2-2a1 1 0 011.3-1.3h.1l1.2 1.3 3.1-3.1a1 1 0 011.3 0zm-2-10.4H1.8v13.4c0 .4.3.8.7.8h26.7v-7.1c0-.5.4-.8.9-.8 1 0 1.7-.8 1.7-1.8 0-.5.4-.9.8-1H38v-3.5zm-27.7 8.2c.5 0 .9.4 1 .9 0 .5-.4 1-1 1H5.7c-.6 0-1-.4-1-1 0-.4.4-.8.9-.9h4.7zm6.5 0c.6 0 1 .4 1 1 0 .4-.4.8-.9.9h-4.7a1 1 0 01-1-1c0-.4.4-.8 1-.9h4.6zm3.9 0h4.6c.5 0 1 .4 1 1 0 .4-.4.8-1 .9h-4.6c-.6 0-1-.4-1-1 0-.4.4-.8.9-.9h4.7zM14 21c.5 0 .9.5.9 1s-.4 1-1 1H5.7a1 1 0 01-1-1c0-.5.5-1 1-1zm24-8.9H1.8v3.6H38V12zm-1-5.3H2.7c-.4 0-.8.3-.8.8v2.7H38V7.7c0-.5-.4-1-1-1z">
+                            </path>
+                        </svg>
+                    </figure>
+                </div>
+                <div class="guru-value">
+                    <figure class="guru-figure-2">
+                        <svg role="img" class="u-svg-ico" viewBox="0 0 45 45" aria-label="Value">
+                            <path
+                                d="M43.75 19.24a3.58 3.58 0 01.42 5c-8.43 10.18-7.9 9.55-7.97 9.61a7.83 7.83 0 01-5.2 2.26H19c-.62 0-1.2.22-1.68.62l-.15.13-.92.9c.3.88.12 1.88-.5 2.6l-.12.15-4.27 4.23a.87.87 0 01-1.15.08l-.09-.08L.26 34.7a.9.9 0 01-.08-1.16l.08-.09 4.18-4.23a2.6 2.6 0 012.35-.74c1.98-3.7 5.68-5.67 9.91-5.67 1.39 0 2.74.25 4.02.73l.38.16h9.8c1.01 0 1.95.44 2.6 1.16l.14.16 5.18-5.38a3.5 3.5 0 014.93-.4zM5.77 30.4l-.09.08-3.56 3.6 8.63 8.8 3.64-3.62a.9.9 0 000-1.25c-7.9-7.96-7.47-7.56-7.62-7.65a.87.87 0 00-1 .04zm34.37-9.58l-5.75 5.97a3.54 3.54 0 01-3.3 4l-.19.01h-7.17a.89.89 0 11-.11-1.76h7.28a1.78 1.78 0 10.14-3.55H20.92a.87.87 0 01-.35-.08 9.52 9.52 0 00-3.87-.81c-3.64 0-6.6 1.62-8.24 4.5l-.15.28 6.89 6.94.75-.72a4.35 4.35 0 012.8-1.24h11.93c1.5 0 2.93-.55 4.06-1.54l.2-.2 7.89-9.5a1.8 1.8 0 00-.21-2.51 1.75 1.75 0 00-2.48.21zM26.08 0a9.73 9.73 0 010 19.43 9.73 9.73 0 010-19.43zm0 1.77a7.96 7.96 0 000 15.9 7.96 7.96 0 000-15.9zm.03 1.3c.46 0 .84.4.84.88v1.02c.39.13.81.37 1.24.8.34.34.34.9.02 1.24a.82.82 0 01-1.2.02c-.29-.3-.6-.46-.9-.46-.47 0-.85.4-.85.88s.38.88.85.88c1.4 0 2.53 1.18 2.53 2.63 0 1.14-.7 2.12-1.69 2.48v1.02c0 .49-.38.88-.84.88a.86.86 0 01-.85-.88v-1.02a3.5 3.5 0 01-1.54-1.14.9.9 0 01.1-1.24.82.82 0 011.2.11c.34.43.73.66 1.09.66.46 0 .84-.39.84-.87a.86.86 0 00-.84-.88 2.58 2.58 0 01-2.53-2.63c0-1.14.7-2.12 1.68-2.48V3.95c0-.49.38-.88.85-.88z">
+                            </path>
+                        </svg>
+                    </figure>
+                    <div class="why-value-box-2">
+                        <h3>Value</h3>
+                        <p>We have the lowest fees in the industry, providing you with maximum value at minimum cost.
+                        </p>
+                    </div>
+                </div>
+                <div class="guru-value">
+
+                    <div class="why-value-box">
+                        <h1>Support</h1>
+                        <p>We have the lowest fees in the industry, providing you with maximum value at minimum cost.
+                        </p>
+                    </div>
+                    <figure class="guru-figure">
+                        <svg role="img" class="u-svg-ico" viewBox="0 0 45 45" aria-label="Support">
+                            <path
+                                d="M23 2c8.7 0 15.7 7 15.7 15.7 3.5.2 6.3 3.1 6.3 6.6v.8c0 3.7-3 6.7-6.7 6.7h-2.7c-.9 0-1.6-.7-1.6-1.6v-11c0-.8.7-1.5 1.6-1.5H37a14.1 14.1 0 00-28.2 0h1.5c.9 0 1.6.7 1.6 1.5v11c0 .9-.7 1.6-1.6 1.6H10l2.3 3.6a9 9 0 007.6 4.2h.6a3.2 3.2 0 013-2.3c1.7 0 3.1 1.4 3.1 3.1 0 1.7-1.4 3.2-3.1 3.2a3 3 0 01-3-2.4h-.6c-3.7 0-7-1.8-9-5L8 31.8h-.3C4 31.8 1 28.8 1 25v-.8c0-3.5 2.8-6.4 6.3-6.6C7.3 9 14.3 2 23 2zm.4 36.9c-.9 0-1.6.7-1.6 1.5a1.6 1.6 0 003.2 0c0-.8-.7-1.5-1.6-1.5zm-13-19.7H7.7a5 5 0 00-5.1 5.1v.8a5 5 0 005 5.1h2.8v-11zm28 0h-2.8v11h2.7a5 5 0 005.1-5v-.9a5 5 0 00-5-5zM23.4 7c.8 0 1.7 0 2.5.2.4.2.8.6.6 1 0 .3-.5.5-1 .5a10.6 10.6 0 00-9.8 3l-.6.2-.5-.2a.7.7 0 010-1C16.7 8.3 20 7 23.4 7z">
+                            </path>
+                        </svg>
+                    </figure>
+                </div>
+                <div class="guru-value">
+                    <p class="see-skills">
+                        <a href="">Why Choose Guru</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-e">
+        <div class="Easy-container">
+            <h1 class="Easy-headline">
+                It's Easy to Get Work Done on Guru
+            </h1>
+            <div class="Easy-container-main">
+
+                <div class="Easy-item">
+                    <figure class="East-figure">
+                        <svg width="46" height="46" class="u-svg-ico c-icon__content" role="img"
+                            aria-label="Post a Job">
+                            <path
+                                d="M37.5 2l.4.2c1.2.5 2 1.3 2.6 2.5l.3 1.3v7.6l-.2.7c-.5.9-1.2 1.3-2.2 1.3h-5.2c-.1.5-.1.8.2 1.2 1.1 1 2.2 2.2 3.2 3.4 1.4 1.9 2.1 4 2.2 6.5v9.5c0 2.3-.6 4.4-1.6 6.4-.2.5-.6.7-1 .5-.5-.2-.7-.6-.4-1.2 1-2.2 1.4-4.6 1.4-7v-7.6c0-3-1-5.7-3.3-7.8l-.7-.7v13.7a3 3 0 01-3.2 3 3 3 0 01-2.7-2l-1.1-3.6c-.3-.7-1.1-1-1.6-.4a508.6 508.6 0 00-.2 7.2c0 1 .3 1.9.6 2.7l1 2.5c.3.6.2 1-.3 1.2-.4.2-.9 0-1.1-.5l-1.1-2.8a9.3 9.3 0 01-.7-3.6v-3.8h-4c-.6 0-1-.3-1-.9 0-.5.4-.7 1-.7h4V30c0-1.3 1-2.3 2.1-2.5 1.2-.2 2.4.5 2.8 1.7l1 3.4c.4.9 1 1.3 1.7 1.2.7-.1 1.1-.7 1.1-1.7V7.6c0-1.5 0-3 1.2-4.1H8.9c-2 0-3.3 1.2-3.3 3.2v29.5c0 .8.3 1 1 1h10.2c.6 0 1 .3 1 .8 0 .4-.3.8-.8.8H6.6c-1.6 0-2.6-1-2.6-2.6V6.7C4 4.5 5 3 7.1 2.1l.2-.1h30.2zM20.2 36.7a1.1 1.1 0 010 2.2 1 1 0 01-1-1c0-.7.4-1.2 1-1.2zM14 26c1 0 1.8.7 1.8 1.7v4.1c0 1-.8 1.8-1.8 1.8h-4c-1 0-1.8-.8-1.8-1.9v-4c0-1 .8-1.7 1.8-1.7h4zm0 1.8h-3.9v4h4v-4zM14 15c1 0 1.8.7 1.9 1.8v4c0 1-.9 1.8-2 1.8h-3.8c-1 0-1.8-.8-1.8-1.9V17c0-1.2.7-2 1.8-2H14zm7.3 5.4H26c.6 0 .9.4.9 1.1 0 .7-.3 1-.9 1h-8.1c-.5 0-.9-.4-.8-1 0-.7.3-1 .8-1h3.5zM14 16.8h-4v4h4v-4zM36.2 3.5a3 3 0 00-3 3V14h5.3c.4 0 .7-.3.7-.9V6.5a3 3 0 00-3-3zm-8.3 8.2c.7 0 1 .4 1 1 0 .8-.3 1.2-1 1.2h-5.5c-.7 0-1-.4-1-1.1 0-.7.3-1 1-1h5.5zm-9.9 0c.6 0 1.2.5 1.1 1.1 0 .6-.5 1-1 1a1 1 0 01-1.1-1c0-.6.4-1 1-1zm-4-5.4c1 0 1.8.7 1.9 1.8v4c0 1-.8 1.8-2 1.8h-3.8c-1 0-1.8-.8-1.8-1.9V8.1c0-1 .7-1.8 1.8-1.8h4zM14 8h-3.9v4h4V8z">
+                            </path>
+                        </svg>
+                    </figure>
+                    <div class="Easy-text">
+                        <h3>Post a Job</h3>
+                        <p>Create your free job posting and start receiving Quotes within hours.</p>
+                    </div>
+                </div>
+                <div class="Easy-item">
+                    <figure class="East-figure">
+                        <svg width="46" height="46" class="u-svg-ico c-icon__content" role="img"
+                            aria-label="Hire Freelancers">
+                            <path
+                                d="M7.7 30.6c.3 0 .6.3.6.6v9.4h28.4v-2.3c0-.4.3-.6.6-.6.4 0 .6.2.7.5V43c0 .8-.6 1.4-1.4 1.5H8.5c-.8 0-1.4-.6-1.5-1.3V31.3c0-.4.3-.7.7-.7zm29 11.2H8.3V43c0 .1 0 .2.2.2h28l.2-.1v-1.2zM22.5 0a6.4 6.4 0 016.4 6.1v5.3c0 2.3-1.3 4.4-3.2 5.5 3.3 1 6.3 3.2 8 6.3l.1.3h2.5c.9 0 1.6.7 1.7 1.5v11.3c0 .4-.3.7-.7.7a.7.7 0 01-.6-.6V25.1c0-.2-.1-.4-.3-.4H8.6c-.2 0-.3.1-.4.3v4c0 .4-.3.7-.6.7A.7.7 0 017 29v-3.8c0-1 .7-1.6 1.5-1.7h2.7c1.6-3.2 4.7-5.6 8.1-6.6-1.8-1-3-3-3.2-5.3V6.4C16.1 3 19 0 22.5 0zm0 29.6c1.5 0 2.7 1.2 2.7 2.6 0 1.5-1.2 2.7-2.7 2.7a2.7 2.7 0 01-2.7-2.7c0-1.4 1.2-2.6 2.7-2.6zm0 1.3c-.8 0-1.4.6-1.4 1.3 0 .8.6 1.4 1.4 1.4.8 0 1.4-.6 1.4-1.4 0-.7-.6-1.3-1.4-1.3zm-2-10.3l-1.2-2.3a12 12 0 00-6.4 4.9l-.2.3h7l.7-3-1.1-2.2zm2.9.6h-1.8l-.5 2.3H24l-.5-2.3zm2.3-3l-1.1 2.4.6 2.9h7.1a11.9 11.9 0 00-6.6-5.2zm-3-.4h-.5a9.6 9.6 0 00-.8 0H21l-.4.2 1 1.8h1.9l1-1.8-.9-.2a11 11 0 00-.8 0h-.1zm.8-11c-.9 1-2.7 2.4-5.7 2.7h-.4v1.9a5 5 0 005 5h.4a5 5 0 004.9-4.8V9.5a5.6 5.6 0 01-4.1-2.8zm-1-5.5a5 5 0 00-5 4.9v2c4-.3 5.5-3 5.5-3a.7.7 0 011.2 0 5 5 0 003.1 3h.3V6.4a5 5 0 00-5.1-5z">
+                            </path>
+                        </svg>
+                    </figure>
+                    <div class="Easy-text">
+                        <h3>Hire Freelancers</h3>
+                        <p>
+                            Compare the Quotes you receive and hire the best freelance professionals for the job.
+                        </p>
+                    </div>
+                </div>
+                <div class="Easy-item">
+                    <figure class="East-figure">
+                        <svg width="46" height="46" class="u-svg-ico c-icon__content" role="img"
+                            aria-label="Get to work">
+                            <path
+                                d="M39.7 3C41 3 42 4 42 5.1v28.5c0 1.2-1 2.2-2.1 2.3h-1l1.2 2a.8.8 0 01-.2 1h-.1l-5.2 3a.8.8 0 01-1-.2L30.9 37l-1.5.9a.8.8 0 01-1.2-.6v-10H27a2.6 2.6 0 01-.1-5.3h9a2.6 2.6 0 01.1 5.2h-4.1l6.9 4a.8.8 0 010 1.2v.1l-1.3.7.7 1.2h1.6c.4 0 .7-.3.8-.7V11.1h-36v22.4c0 .4.3.7.7.8h17a.8.8 0 010 1.5h-17c-1.1 0-2.1-1-2.2-2.1V5.3C3 4 4 3 5.1 3h34.6zm-10 24.8v8l1.1-.5a.8.8 0 011 .2l2.7 4.7 3.9-2.2-2.7-4.7a.8.8 0 01.2-1l.9-.5-7-4zm-16-13a7.1 7.1 0 110 14.2 7.1 7.1 0 010-14.2zm-.9 1.7a5.5 5.5 0 104.1 9.8l-3.8-3.8a.8.8 0 01-.3-.6zm23 7h-8.9a1 1 0 00-.1 2.2h9a1 1 0 000-2.1zM19 22.8h-3.5l2.4 2.5c.6-.7 1-1.6 1-2.5zm-4.7-6.2V21H19a5.5 5.5 0 00-4.7-4.6zm15.3 3h8c.4 0 .8.3.8.6s-.3.6-.7.6h-8c-.5 0-.8-.2-.8-.6 0-.3.3-.5.6-.5h8.1zm8-4.7c.4 0 .8.3.8.6s-.3.6-.7.6h-8c-.5 0-.8-.3-.8-.6s.3-.5.6-.6h8.1zm2-10.3H5.3c-.4 0-.7.3-.8.7v4.5h36V5.3c0-.4-.4-.8-.8-.8zm-31.4 2a.6.6 0 01.6.6.6.6 0 01-.6.6.6.6 0 01-.6-.6.6.6 0 01.6-.6zm28.2 0c.4 0 .8.3.8.6s-.3.6-.7.6H18c-.5 0-.8-.2-.8-.6 0-.3.3-.5.7-.5h18.6z">
+                            </path>
+                        </svg>
+                    </figure>
+                    <div class="Easy-text">
+                        <h3>Get Work Done</h3>
+                        <p>Decide on how and when payments will be made and use WorkRooms to collaborate,
+                            communicate and track work.</p>
+                    </div>
+                </div>
+                <div class="Easy-item">
+                    <figure class="East-figure">
+                        <svg width="46" height="46" class="u-svg-ico c-icon__content" role="img"
+                            aria-label="Make Secure Payments">
+                            <path
+                                d="M37 5c1.5 0 2.6 1.1 2.7 2.5V21h1.8c.5 0 .8.4.9.8 0 1 .8 1.8 1.7 1.8.5 0 .8.3.9.7v6.1c0 1.7-.4 3.4-1.1 4.9-2 4-5 4.8-6.2 5.2l-.6.1c-1 0-5.9-2-7.4-6.9l-.1-.3h-27A2.7 2.7 0 010 31V7.7C0 6.3 1 5 2.5 5H37zm3.7 17.8h-7.2a3.6 3.6 0 01-2.4 2.5H31v5.2c0 2.8 1.2 5.1 3.5 6.9a10 10 0 002.6 1.4h.2a8 8 0 005-4.4c.7-1 1-2.3 1-3.6v-5.6a3.5 3.5 0 01-2.5-2.4zm-.7 5c.4.3.4.8.1 1.2v.1l-3.8 3.8a1 1 0 01-1.2 0H35l-2-2a1 1 0 011.3-1.3h.1l1.2 1.3 3.1-3.1a1 1 0 011.3 0zm-2-10.4H1.8v13.4c0 .4.3.8.7.8h26.7v-7.1c0-.5.4-.8.9-.8 1 0 1.7-.8 1.7-1.8 0-.5.4-.9.8-1H38v-3.5zm-27.7 8.2c.5 0 .9.4 1 .9 0 .5-.4 1-1 1H5.7c-.6 0-1-.4-1-1 0-.4.4-.8.9-.9h4.7zm6.5 0c.6 0 1 .4 1 1 0 .4-.4.8-.9.9h-4.7a1 1 0 01-1-1c0-.4.4-.8 1-.9h4.6zm3.9 0h4.6c.5 0 1 .4 1 1 0 .4-.4.8-1 .9h-4.6c-.6 0-1-.4-1-1 0-.4.4-.8.9-.9h4.7zM14 21c.5 0 .9.5.9 1s-.4 1-1 1H5.7a1 1 0 01-1-1c0-.5.5-1 1-1zm24-8.9H1.8v3.6H38V12zm-1-5.3H2.7c-.4 0-.8.3-.8.8v2.7H38V7.7c0-.5-.4-1-1-1z">
+                            </path>
+
+                        </svg>
+                    </figure>
+                    <div class="Easy-text">
+                        <h3>Make Secure Payments</h3>
+                        <p>Choose from multiple payment methods with SafePay payment protection.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="see-guru-work">
+                <a href="">How See Guru Works</a>
+            </p>
+        </div>
+
+
+    </section>
+    <section class="section-f">
+        <div class="work-way">
+            <h2 class="work-headline">Work Your Way</h2>
+            <div class="work-container">
+                <div class="work-figure">
+
+                    <figure>
+                        <img srcset="https://res.cloudinary.com/gurucom/image/upload/f_auto,b_rgb:f7f7f7/static/homepage/workyourway_2x_xjysgy.jpg
+    2x, 
+                               https://res.cloudinary.com/gurucom/image/upload/f_auto,w_520,b_rgb:f7f7f7/static/homepage/workyourway_2x_xjysgy.jpg
+    1x" src="https://res.cloudinary.com/gurucom/image/upload/f_auto,w_520,b_rgb:f7f7f7/static/homepage/workyourway_2x_xjysgy.jpg"
+                            alt="Work your way" width="575" height="425" loading="lazy">
+                    </figure>
+                </div>
+
+
+                <div class="work-text">
+                    <p class="work-heading">
+                        Choose from four Payment terms and create Agreements.
+                    </p>
+                    <div class="jump-drop">
+                        <details class="work-detailes">
+                            <summary class="work-summary">
+                                <svg viewBox="0 0 32 32" height="8" width="8" class="arrow">
+                                    <path d="M28.8 6.2L16 19 3.2 6.2 0 9.4l16 16.4L32 9.4z"></path>
+                                </svg> fixed price
+                            </summary>
+                            <div class="summary-text">
+                                <p>Set a total fixed cost for your job and create milestones to ensure you're satisfied
+                                    every step of the way. Set a due date and the amount to be paid for each milestone.
+                                </p>
+                            </div>
+                        </details>
+                        <details class="work-detailes">
+                            <summary class="work-summary">
+                                <svg viewBox="0 0 32 32" height="8" width="8" class="arrow">
+                                    <path d="M28.8 6.2L16 19 3.2 6.2 0 9.4l16 16.4L32 9.4z"></path>
+                                </svg> Hourly
+                            </summary>
+                            <div>
+                                <p>Track progress with ease and pay Freelancers by the hour using our Time Tracker
+                                    software. If you hire multiple Freelancers for your job, you'll receive a breakdown
+                                    of each Freelancer's hourly rate and time tracked.</p>
+                            </div>
+                        </details>
+                        <details class="work-detailes">
+                            <summary class="work-summary">
+                                <svg viewBox="0 0 32 32" height="8" width="8" class="arrow">
+                                    <path d="M28.8 6.2L16 19 3.2 6.2 0 9.4l16 16.4L32 9.4z"></path>
+                                </svg> Task-Based
+                            </summary>
+                            <div>
+                                <p>Pay for a single completed online freelance task, however big or small. Create and
+                                    assign tasks as needed and generate invoice for each task once it is completed.</p>
+                            </div>
+                        </details>
+                        <details class="work-detailes">
+                            <summary class="work-summary">
+                                <svg viewBox="0 0 32 32" height="8" width="8" class="arrow">
+                                    <path d="M28.8 6.2L16 19 3.2 6.2 0 9.4l16 16.4L32 9.4z"></path>
+                                </svg> Recurring Payment
+                            </summary>
+                            <div>
+                                <p>Easily pay your go-to Freelancers on an ongoing basis. Set up to four recurring
+                                    payment rules for any given job - pay every week, every other week, every month, or
+                                    every quarter. Stop or resume payments at any point with just a click of a button.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <p class="Agreement">
+                        <a href="">Learn About Agreements</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-g">
+
+        <div class="enterprise-details">
+            <figure class="enterprise-details-figure">
+                <img src="img/enter.jpg">
+            </figure>
+
+            <div class="enterprise-text">
+                <div class="enterprise-tagline">
+                    <p class="enterprise-para">Custom Enterprise Solutions for Your Business.</p>
+                    <ul class="enterprise-list">
+                        <li>
+                            <p class="enterprise-logo">
+                                <svg role="img" class="logo" height="26" width="26" aria-label="Custom Built Solutions"
+                                    alt=" Custom Built Solutions">
+                                    <use
+                                        xlink:href="/images/homepage/enterprise/enterprise-icons.svg#icon-enterprise-built-solution">
+                                    </use>
+                                </svg>
+                                Custom Built Solutions
+                            </p>
+                        </li>
+                        <li>
+                            <p class="enterprise-logo">
+                                <svg role="img" class="logo" height="26" width="26"
+                                    aria-label="Compliance &amp; Security Benefits"
+                                    alt="Compliance &amp; Security Benefits">
+                                    <use
+                                        xlink:href="/images/homepage/enterprise/enterprise-icons.svg#icon-enterprise-platform-security">
+                                    </use>
+                                </svg>
+                                Compliance & Security Benefits
+                            </p>
+                        </li>
+                        <li>
+                            <p class="enterprise-logo">
+                                <svg role="img" class="logo" height="26" width="26" aria-label="Industry Lowest Fees"
+                                    alt="Industry Lowest Fees">
+                                    <use
+                                        xlink:href="/images/homepage/enterprise/enterprise-icons.svg#icon-enterprise-lowest-fee">
+                                    </use>
+                                </svg>
+                                Industry Lowest Fees
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p class="learn">
+                        <a href="">Learn About Guru Enterprise</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-h">
+        <div class="clients-headline">
+            <h1 class="search-title">What Clients Say</h1>
+            <div class="clients-text">
+                <p class="clients">
+                    Guru's services have allowed me to find more freelancing work as a writer than any other website. It
+                    is easy to communicate with clients through their message system and their SafePay feature ensures
+                    that all funds are secured prior to any work being done. I would recommend Guru to any freelancer
+                    who is looking to find new clients online.
+                </p>
+                <div class="clients-figure-cont">
+                    <figure class="clients-figure">
+                        <img src="img/lee.jpg">
+                    </figure>
+                    <div class="clients-figure-text">
+                        <h3>Russell Lee</h3>
+                        <p>writer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-i">
+        <div class="insights">
+            <h1 class="search-title"> Guru Insights</h1>
+            <ul class="insights-main">
+                <li class="insights-box">
+                    <figure class="insights-img">
+                        <img src="img/2d.jpg" />
+                    </figure>
+                    <div class="insights-text">
+                        <p>March 02,2022</p>
+                        <h5>2D Animation vs. 3D Animation Cost</h5>
+                    </div>
+                </li>
+                <li class="insights-box">
+                    <figure class="insights-img">
+                        <img src="img/3d.jpg">
+                    </figure>
+                    <div class="insights-text">
+                        <p> March 02,2022</p>
+                        <h5>What IS 3D Product Animation</h5>
+                    </div>
+                </li>
+                <li class="insights-box">
+                    <figure class="insights-img">
+                        <img src="img/3djob.jpg">
+                    </figure>
+                    <div class="insights-text">
+                        <p>March 02,2022</p>
+                        <h5>3D Animator Job Description</h5>
+                    </div>
+                </li>
+                <li class="insights-box">
+                    <figure class="insights-img">
+                        <img src="img/cad.jpg">
+                    </figure>
+                    <div class="insights-text">
+                        <p>March 02,2022</p>
+                        <h5>CAD Design Engineer Interview Question</h5>
+                    </div>
+                </li>
+            </ul>
+            <p class="guru-blog">
+                <a class="button-blog" href="">View Guru Blog</a>
+            </p>
+        </div>
+    </section>
+    <section id="section-j">
+        <div class="quotes">
+            <p class="quotes-text">Get Quotes from Top Freelance Professionals for Free!</p>
+            <p class="gure-blog">
+                <a class="button-blog" href="">Post a Job Now</a>
+            </p>
+        </div>
+    </section>
+    <section id="section-l">
+        <div class="browse">
+            <h2 class="search-title">
+                Browse Freelance
+            </h2>
+            <div class="top-skill">
+                <h3 class="skill-heading">
+                    Top Skills
+                </h3>
+                <ul class="skill-main">
+
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                  
+
+
+                </ul>
+                <p class="guru-blog">
+                    <a class="browse-skill" href="">Browse All Skills</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="section-k">
+        <div class="browse">
+
+            <div class="top-skill">
+                <h3 class="skill-heading">
+                    Top Locations
+                </h3>
+                <ul class="skill-main">
+
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+                    <li class="skill-course"> Android App Developers</li>
+
+                </ul>
+                <p class="guru-blog">
+                    <a class="browse-skill" href="">Browse All Skills</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-main-one">
+                <div class="footer-section">
+                    <p class="footer-heading">
+                        <label>Navigate</label>
+                    </p>
+                    <div class="footer-list">
+                        <a href="">Home</a>
+                        <a href="">Post a Job</a>
+                        <a href="">Find a Freelancer</a>
+                        <a href="">Find a Job</a>
+                        <a href="">Enterprise</a>
+                        <a href="">Agency Solution</a>
+                        <a href="">Po Solution</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-heading">
+                        <label>Company Info</label>
+                    </p>
+                    <div class="footer-list">
+                        <a href="">Home</a>
+                        <a href="">Post a Job</a>
+                        <a href="">Find a Freelancer</a>
+                        <a href="">Find a Job</a>
+                        <a href="">Enterprise</a>
+                        <a href="">Agency Solution</a>
+
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-heading">
+                        <label>Resource</label>
+                    </p>
+                    <div class="footer-list">
+                        <a href="">Home</a>
+                        <a href="">Post a Job</a>
+                        <a href="">Find a Freelancer</a>
+                        <a href="">Find a Job</a>
+                        <a href="">Enterprise</a>
+
+
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-heading">
+                        <label>Policies</label>
+                    </p>
+                    <div class="footer-list">
+                        <a href="policy.html">IP Policy</a>
+                        <a href="">Post a Job</a>
+                        <a href="">Find a Freelancer</a>
+
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <p class="footer-heading">
+                        <label>Connect With Us</label>
+                    </p>
+                    <div class="footer-connect">
+                        <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></i></a>
+                        <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-main-two">
+                <p>Get Work Done</p>
+                <p>Copyright © 2022, Guru.com</p>
+            </div>
+
+    </footer>
+
+
+    <!-- ==================Scripts=================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="guru.js"></script>
+
+</body>
+
+</html>
